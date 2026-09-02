@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.thesis.bitperfectusb.domain.abx.AbxGameEngineTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-08-31T12:15:55.843Z" hostname="MSI" time="0.008">
+  <properties/>
+  <testcase name="test binomial p-value calculation for 5 out of 10 random guessing" classname="com.thesis.bitperfectusb.domain.abx.AbxGameEngineTest" time="0.003"/>
+  <testcase name="test binomial p-value calculation for 10 out of 10 correct" classname="com.thesis.bitperfectusb.domain.abx.AbxGameEngineTest" time="0.0"/>
+  <testcase name="test processSampleB lowpass filter and dither does not crash" classname="com.thesis.bitperfectusb.domain.abx.AbxGameEngineTest" time="0.001"/>
+  <testcase name="test submitGuess increments round and updates score on correct answer" classname="com.thesis.bitperfectusb.domain.abx.AbxGameEngineTest" time="0.004"/>
+  <testcase name="test startNewGame initializes round 1 with zero score" classname="com.thesis.bitperfectusb.domain.abx.AbxGameEngineTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

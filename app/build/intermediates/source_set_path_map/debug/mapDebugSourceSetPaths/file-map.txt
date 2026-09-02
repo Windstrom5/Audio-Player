@@ -1,0 +1,57 @@
+com.thesis.bitperfectusb.app-ui-graphics-release-0 C:\Users\Katana 15\.gradle\caches\8.13\transforms\0a67b9abe35b20a7bbe88f8545ee8454\transformed\ui-graphics-release\res
+com.thesis.bitperfectusb.app-lifecycle-runtime-compose-release-1 C:\Users\Katana 15\.gradle\caches\8.13\transforms\1b13747d43b26c8a73a6af55d24340e3\transformed\lifecycle-runtime-compose-release\res
+com.thesis.bitperfectusb.app-sqlite-release-2 C:\Users\Katana 15\.gradle\caches\8.13\transforms\1e3fa568e97b129730d646c0b67d9444\transformed\sqlite-release\res
+com.thesis.bitperfectusb.app-lifecycle-livedata-core-ktx-2.9.4-3 C:\Users\Katana 15\.gradle\caches\8.13\transforms\21586edc60c5c997d9972aae71ae0cdc\transformed\lifecycle-livedata-core-ktx-2.9.4\res
+com.thesis.bitperfectusb.app-lifecycle-viewmodel-release-4 C:\Users\Katana 15\.gradle\caches\8.13\transforms\250dfa2269007a6923801ce4647db64e\transformed\lifecycle-viewmodel-release\res
+com.thesis.bitperfectusb.app-navigation-common-ktx-2.7.7-5 C:\Users\Katana 15\.gradle\caches\8.13\transforms\2a94481725fbfa79e13c60fa4746db50\transformed\navigation-common-ktx-2.7.7\res
+com.thesis.bitperfectusb.app-fragment-1.6.2-6 C:\Users\Katana 15\.gradle\caches\8.13\transforms\2d31261e5873cef5934e232da5487cab\transformed\fragment-1.6.2\res
+com.thesis.bitperfectusb.app-lifecycle-viewmodel-compose-release-7 C:\Users\Katana 15\.gradle\caches\8.13\transforms\2f2730490b44ea1bfd2d0616d9b9ff40\transformed\lifecycle-viewmodel-compose-release\res
+com.thesis.bitperfectusb.app-lifecycle-livedata-core-2.9.4-8 C:\Users\Katana 15\.gradle\caches\8.13\transforms\3c1bd6fb7aac511acf2881f1b27cd438\transformed\lifecycle-livedata-core-2.9.4\res
+com.thesis.bitperfectusb.app-activity-ktx-1.8.2-9 C:\Users\Katana 15\.gradle\caches\8.13\transforms\3c39f90598f537a92afd30af97cbaf98\transformed\activity-ktx-1.8.2\res
+com.thesis.bitperfectusb.app-emoji2-views-helper-1.4.0-10 C:\Users\Katana 15\.gradle\caches\8.13\transforms\45fe3fa1fe928dea762c106f56cede65\transformed\emoji2-views-helper-1.4.0\res
+com.thesis.bitperfectusb.app-navigation-runtime-ktx-2.7.7-11 C:\Users\Katana 15\.gradle\caches\8.13\transforms\48ea52808b1e07e853f89f1155250aca\transformed\navigation-runtime-ktx-2.7.7\res
+com.thesis.bitperfectusb.app-activity-1.8.2-12 C:\Users\Katana 15\.gradle\caches\8.13\transforms\4bd3e0b7f0c2addc8848bf7d2821c336\transformed\activity-1.8.2\res
+com.thesis.bitperfectusb.app-room-runtime-release-13 C:\Users\Katana 15\.gradle\caches\8.13\transforms\52402b7e6bfef1e1e1e4558f15b67789\transformed\room-runtime-release\res
+com.thesis.bitperfectusb.app-material-icons-core-release-14 C:\Users\Katana 15\.gradle\caches\8.13\transforms\5757c34f8fa143e1f525911aac6e8e53\transformed\material-icons-core-release\res
+com.thesis.bitperfectusb.app-core-ktx-1.15.0-15 C:\Users\Katana 15\.gradle\caches\8.13\transforms\59bfb32d9334cb0829ffd58da96556d3\transformed\core-ktx-1.15.0\res
+com.thesis.bitperfectusb.app-appcompat-resources-1.6.1-16 C:\Users\Katana 15\.gradle\caches\8.13\transforms\5a94b5fb6f900728c0078b97a39073dd\transformed\appcompat-resources-1.6.1\res
+com.thesis.bitperfectusb.app-room-ktx-2.7.0-17 C:\Users\Katana 15\.gradle\caches\8.13\transforms\64f10995ee0c4955817dc38236666165\transformed\room-ktx-2.7.0\res
+com.thesis.bitperfectusb.app-graphics-path-1.0.1-18 C:\Users\Katana 15\.gradle\caches\8.13\transforms\6c5fb1f6de18d9e73f9ec3cf0c2b03a9\transformed\graphics-path-1.0.1\res
+com.thesis.bitperfectusb.app-core-runtime-2.2.0-19 C:\Users\Katana 15\.gradle\caches\8.13\transforms\6c75a5c72db513a5a535043fd850d9b8\transformed\core-runtime-2.2.0\res
+com.thesis.bitperfectusb.app-startup-runtime-1.1.1-20 C:\Users\Katana 15\.gradle\caches\8.13\transforms\7b4cd25eca838ba9953f60cabf8846ad\transformed\startup-runtime-1.1.1\res
+com.thesis.bitperfectusb.app-material-icons-extended-release-21 C:\Users\Katana 15\.gradle\caches\8.13\transforms\7e396243415f40d5bd65618346be5dff\transformed\material-icons-extended-release\res
+com.thesis.bitperfectusb.app-savedstate-ktx-1.3.3-22 C:\Users\Katana 15\.gradle\caches\8.13\transforms\822d2d531e2090463ef6d3d932c31d2c\transformed\savedstate-ktx-1.3.3\res
+com.thesis.bitperfectusb.app-lifecycle-viewmodel-ktx-2.9.4-23 C:\Users\Katana 15\.gradle\caches\8.13\transforms\8838092324c0d9cc98d692ea4cfd040c\transformed\lifecycle-viewmodel-ktx-2.9.4\res
+com.thesis.bitperfectusb.app-material3-24 C:\Users\Katana 15\.gradle\caches\8.13\transforms\8bfa4b8e862e06a2fade8da6527d60aa\transformed\material3\res
+com.thesis.bitperfectusb.app-navigation-runtime-2.7.7-25 C:\Users\Katana 15\.gradle\caches\8.13\transforms\93f652875cb63fbe8f14f7be3e6c7a5c\transformed\navigation-runtime-2.7.7\res
+com.thesis.bitperfectusb.app-savedstate-release-26 C:\Users\Katana 15\.gradle\caches\8.13\transforms\96dd2dc29441de3189e9d4f349decb34\transformed\savedstate-release\res
+com.thesis.bitperfectusb.app-navigation-common-2.7.7-27 C:\Users\Katana 15\.gradle\caches\8.13\transforms\a0241521a4be0496f0f18c765bc2a544\transformed\navigation-common-2.7.7\res
+com.thesis.bitperfectusb.app-lifecycle-service-2.9.4-28 C:\Users\Katana 15\.gradle\caches\8.13\transforms\a2cc385eed960305dce4c88f411707d1\transformed\lifecycle-service-2.9.4\res
+com.thesis.bitperfectusb.app-fragment-ktx-1.6.2-29 C:\Users\Katana 15\.gradle\caches\8.13\transforms\aa0df7a78602926e491855b9f291f5c7\transformed\fragment-ktx-1.6.2\res
+com.thesis.bitperfectusb.app-material-30 C:\Users\Katana 15\.gradle\caches\8.13\transforms\b738ef7d85b123dc186a80b2dd833a68\transformed\material\res
+com.thesis.bitperfectusb.app-customview-poolingcontainer-1.0.0-31 C:\Users\Katana 15\.gradle\caches\8.13\transforms\b8db4dd4c1217706886b739ba3ae5305\transformed\customview-poolingcontainer-1.0.0\res
+com.thesis.bitperfectusb.app-core-viewtree-1.0.0-32 C:\Users\Katana 15\.gradle\caches\8.13\transforms\bbed367c7cdf063c097cdd74fb06e333\transformed\core-viewtree-1.0.0\res
+com.thesis.bitperfectusb.app-lifecycle-livedata-2.9.4-33 C:\Users\Katana 15\.gradle\caches\8.13\transforms\bcc17905c4413d43c605c240918411b6\transformed\lifecycle-livedata-2.9.4\res
+com.thesis.bitperfectusb.app-sqlite-framework-release-34 C:\Users\Katana 15\.gradle\caches\8.13\transforms\c047fe3022e87249fd004cd2bc76c9e9\transformed\sqlite-framework-release\res
+com.thesis.bitperfectusb.app-annotation-experimental-1.4.1-35 C:\Users\Katana 15\.gradle\caches\8.13\transforms\c70cc774c689c37f1c418f31fabe19e6\transformed\annotation-experimental-1.4.1\res
+com.thesis.bitperfectusb.app-activity-compose-1.8.2-36 C:\Users\Katana 15\.gradle\caches\8.13\transforms\c90a1b582c90e2ffc3a586e7ddd0203a\transformed\activity-compose-1.8.2\res
+com.thesis.bitperfectusb.app-appcompat-1.6.1-37 C:\Users\Katana 15\.gradle\caches\8.13\transforms\cbe13a9608cdfb5fe17470790518bc05\transformed\appcompat-1.6.1\res
+com.thesis.bitperfectusb.app-foundation-release-38 C:\Users\Katana 15\.gradle\caches\8.13\transforms\cd275fdfa3f470d64fc599e53e47e3ac\transformed\foundation-release\res
+com.thesis.bitperfectusb.app-navigation-compose-2.7.7-39 C:\Users\Katana 15\.gradle\caches\8.13\transforms\d3ee185c927a552282963accd9da0f95\transformed\navigation-compose-2.7.7\res
+com.thesis.bitperfectusb.app-emoji2-1.4.0-40 C:\Users\Katana 15\.gradle\caches\8.13\transforms\d3fcff8108beef0c193c8cd28680696d\transformed\emoji2-1.4.0\res
+com.thesis.bitperfectusb.app-profileinstaller-1.4.0-41 C:\Users\Katana 15\.gradle\caches\8.13\transforms\dc1edc6ac8b9555126e57932dfd70e21\transformed\profileinstaller-1.4.0\res
+com.thesis.bitperfectusb.app-tracing-1.2.0-42 C:\Users\Katana 15\.gradle\caches\8.13\transforms\e58416c8daa29ae60e150dd07b9fd78f\transformed\tracing-1.2.0\res
+com.thesis.bitperfectusb.app-lifecycle-process-2.9.4-43 C:\Users\Katana 15\.gradle\caches\8.13\transforms\e6f1bc2a9008f6dbc477ee1344100f01\transformed\lifecycle-process-2.9.4\res
+com.thesis.bitperfectusb.app-ui-release-44 C:\Users\Katana 15\.gradle\caches\8.13\transforms\ebf156b5b322335c88ba185289a489da\transformed\ui-release\res
+com.thesis.bitperfectusb.app-core-1.15.0-45 C:\Users\Katana 15\.gradle\caches\8.13\transforms\fa898ffedcf790b70279eb741e161954\transformed\core-1.15.0\res
+com.thesis.bitperfectusb.app-lifecycle-runtime-release-46 C:\Users\Katana 15\.gradle\caches\8.13\transforms\fb9b74fedf26ad96fb1265bd5ee6ca80\transformed\lifecycle-runtime-release\res
+com.thesis.bitperfectusb.app-lifecycle-viewmodel-savedstate-release-47 C:\Users\Katana 15\.gradle\caches\8.13\transforms\ff6da70606ece8184bb78eb07ecec5dc\transformed\lifecycle-viewmodel-savedstate-release\res
+com.thesis.bitperfectusb.app-pngs-48 D:\Project\BitPerfectUSB\app\build\generated\res\pngs\debug
+com.thesis.bitperfectusb.app-resValues-49 D:\Project\BitPerfectUSB\app\build\generated\res\resValues\debug
+com.thesis.bitperfectusb.app-updated_navigation_xml-50 D:\Project\BitPerfectUSB\app\build\generated\updated_navigation_xml\debug
+com.thesis.bitperfectusb.app-packageDebugResources-51 D:\Project\BitPerfectUSB\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.thesis.bitperfectusb.app-packageDebugResources-52 D:\Project\BitPerfectUSB\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.thesis.bitperfectusb.app-debug-53 D:\Project\BitPerfectUSB\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.thesis.bitperfectusb.app-debug-54 D:\Project\BitPerfectUSB\app\src\debug\res
+com.thesis.bitperfectusb.app-main-55 D:\Project\BitPerfectUSB\app\src\main\res
+com.thesis.bitperfectusb.app-debug-56 D:\Project\BitPerfectUSB\core-usb\build\intermediates\packaged_res\debug\packageDebugResources

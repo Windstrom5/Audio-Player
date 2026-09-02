@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.thesis.bitperfectusb.playback.LrcParserTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-08-31T12:15:55.866Z" hostname="MSI" time="0.004">
+  <properties/>
+  <testcase name="fallback to unsynchronized plain text when no timestamps present" classname="com.thesis.bitperfectusb.playback.LrcParserTest" time="0.001"/>
+  <testcase name="parse standard timestamps and metadata tags" classname="com.thesis.bitperfectusb.playback.LrcParserTest" time="0.002"/>
+  <testcase name="findActiveIndex performs accurate binary search" classname="com.thesis.bitperfectusb.playback.LrcParserTest" time="0.0"/>
+  <testcase name="parse multi-timestamp lines correctly ordered" classname="com.thesis.bitperfectusb.playback.LrcParserTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

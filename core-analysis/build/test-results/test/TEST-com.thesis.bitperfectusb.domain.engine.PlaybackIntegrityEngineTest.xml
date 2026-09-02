@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.thesis.bitperfectusb.domain.engine.PlaybackIntegrityEngineTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-08-17T07:20:31.742Z" hostname="MSI" time="0.034">
+  <properties/>
+  <testcase name="usb-direct path penalizes an unsupported bit depth" classname="com.thesis.bitperfectusb.domain.engine.PlaybackIntegrityEngineTest" time="0.021"/>
+  <testcase name="usb-direct path with per-altsetting data requires one option to match all three fields at once" classname="com.thesis.bitperfectusb.domain.engine.PlaybackIntegrityEngineTest" time="0.005"/>
+  <testcase name="usb-direct path penalizes an unsupported sample rate" classname="com.thesis.bitperfectusb.domain.engine.PlaybackIntegrityEngineTest" time="0.0"/>
+  <testcase name="usb-direct path scores 100 when source exactly matches dac capability" classname="com.thesis.bitperfectusb.domain.engine.PlaybackIntegrityEngineTest" time="0.0"/>
+  <testcase name="audiotrack path penalizes resampling when source rate differs from 48kHz" classname="com.thesis.bitperfectusb.domain.engine.PlaybackIntegrityEngineTest" time="0.005"/>
+  <testcase name="usb-direct path with per-altsetting data scores 100 when one altsetting matches exactly" classname="com.thesis.bitperfectusb.domain.engine.PlaybackIntegrityEngineTest" time="0.0"/>
+  <testcase name="audiotrack path always incurs the bit-depth penalty for the mixer reformat" classname="com.thesis.bitperfectusb.domain.engine.PlaybackIntegrityEngineTest" time="0.0"/>
+  <testcase name="usb-direct path with no dac scores zero" classname="com.thesis.bitperfectusb.domain.engine.PlaybackIntegrityEngineTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

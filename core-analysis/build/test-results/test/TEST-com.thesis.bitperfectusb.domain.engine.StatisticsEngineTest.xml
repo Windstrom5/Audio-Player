@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.thesis.bitperfectusb.domain.engine.StatisticsEngineTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-08-17T07:20:31.780Z" hostname="MSI" time="0.018">
+  <properties/>
+  <testcase name="welch t-test does not flag identical groups as significant" classname="com.thesis.bitperfectusb.domain.engine.StatisticsEngineTest" time="0.003"/>
+  <testcase name="welch t-test detects an obvious difference as significant" classname="com.thesis.bitperfectusb.domain.engine.StatisticsEngineTest" time="0.0"/>
+  <testcase name="t distribution p-value approximates the classic 1_96 critical value at large df" classname="com.thesis.bitperfectusb.domain.engine.StatisticsEngineTest" time="0.003"/>
+  <testcase name="one-way anova detects an obvious group difference" classname="com.thesis.bitperfectusb.domain.engine.StatisticsEngineTest" time="0.009"/>
+  <testcase name="descriptive stats compute correct mean and stddev" classname="com.thesis.bitperfectusb.domain.engine.StatisticsEngineTest" time="0.0"/>
+  <testcase name="t distribution p-value is 1 at t=0" classname="com.thesis.bitperfectusb.domain.engine.StatisticsEngineTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.thesis.bitperfectusb.playback.dsp.ReplayGainProcessorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-08-31T12:15:55.990Z" hostname="MSI" time="0.002">
+  <properties/>
+  <testcase name="gain multiplier calculation scales correctly" classname="com.thesis.bitperfectusb.playback.dsp.ReplayGainProcessorTest" time="0.001"/>
+  <testcase name="soft knee limiter prevents hard clipping distortion" classname="com.thesis.bitperfectusb.playback.dsp.ReplayGainProcessorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

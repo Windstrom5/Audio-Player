@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.thesis.bitperfectusb.app-debug-52:/xml_device_filter.xml.flat",
+        "source": "com.thesis.bitperfectusb.app-main-54:/xml/device_filter.xml"
+    },
+    {
+        "merged": "com.thesis.bitperfectusb.app-debug-52:/drawable_ic_launcher.xml.flat",
+        "source": "com.thesis.bitperfectusb.app-main-54:/drawable/ic_launcher.xml"
+    }
+]

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.thesis.bitperfectusb.domain.engine.AdaptiveOptimizationEngineTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-08-17T07:20:31.706Z" hostname="MSI" time="0.006">
+  <properties/>
+  <testcase name="buffer shrink is floored at 1024 bytes" classname="com.thesis.bitperfectusb.domain.engine.AdaptiveOptimizationEngineTest" time="0.005"/>
+  <testcase name="dropouts trigger a doubled buffer recommendation" classname="com.thesis.bitperfectusb.domain.engine.AdaptiveOptimizationEngineTest" time="0.0"/>
+  <testcase name="stable high latency triggers a halved buffer recommendation" classname="com.thesis.bitperfectusb.domain.engine.AdaptiveOptimizationEngineTest" time="0.0"/>
+  <testcase name="stable low latency maintains the current buffer" classname="com.thesis.bitperfectusb.domain.engine.AdaptiveOptimizationEngineTest" time="0.0"/>
+  <testcase name="buffer growth is capped at 32768 bytes" classname="com.thesis.bitperfectusb.domain.engine.AdaptiveOptimizationEngineTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

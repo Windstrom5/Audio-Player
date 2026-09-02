@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Matches any USB device that declares itself as USB Audio Class (class = 1)
+    at the interface level, per USB-IF Base Class Definitions.
+    This is the broad, standards-based way to catch class-compliant DACs
+    without needing a vendor/product ID for every possible device.
+-->
+<resources>
+    <usb-device class="1" />
+
+    <!-- Explicit examples matching the hardware profiles referenced in
+         Chapter 4 (Experiment C) of the thesis, kept for reference/testing -->
+    <usb-device vendor-id="2235" product-id="9988" />  <!-- TI PCM2704: 0x08BB / 0x2704 -->
+    <usb-device vendor-id="8369" product-id="10" />    <!-- XMOS XU208: 0x20B1 / 0x000A -->
+    <usb-device vendor-id="9370" product-id="36888" /> <!-- ESS ES9018K2M: 0x249A / 0x9018 -->
+</resources>

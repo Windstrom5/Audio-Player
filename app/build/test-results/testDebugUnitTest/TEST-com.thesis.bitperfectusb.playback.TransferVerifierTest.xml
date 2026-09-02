@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.thesis.bitperfectusb.playback.TransferVerifierTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-08-31T12:15:55.871Z" hostname="MSI" time="0.012">
+  <properties/>
+  <testcase name="unequal byte counts are not yet comparable" classname="com.thesis.bitperfectusb.playback.TransferVerifierTest" time="0.001"/>
+  <testcase name="modified bytes at equal counts verify false" classname="com.thesis.bitperfectusb.playback.TransferVerifierTest" time="0.0"/>
+  <testcase name="identical bytes at equal counts verify true" classname="com.thesis.bitperfectusb.playback.TransferVerifierTest" time="0.001"/>
+  <testcase name="reset clears all accumulated state" classname="com.thesis.bitperfectusb.playback.TransferVerifierTest" time="0.0"/>
+  <testcase name="re-chunked but otherwise identical byte stream still verifies true" classname="com.thesis.bitperfectusb.playback.TransferVerifierTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
