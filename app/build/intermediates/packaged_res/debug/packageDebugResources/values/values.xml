@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">BitPerfect USB</string>
+    <string name="app_name">Re:Bit</string>
     <string name="notification_channel_playback">Playback</string>
     <style name="Theme.BitPerfectUSB" parent="android:Theme.Material.Light.NoActionBar"/>
 </resources>

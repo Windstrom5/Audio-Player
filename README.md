@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🎵 BitPerfect USB Audio Player & Research Suite
+# 🎵 Re:Bit — BitPerfect USB Audio Player & Research Suite
 
-**An Audiophile Music Player & Custom User-Space USB Audio Class Driver for Android**
+**A Reference-Grade Audiophile Music Player & Custom User-Space USB Audio Class Driver for Android**
 
 [![Platform](https://img.shields.io/badge/Platform-Android%208.0%2B%20(API%2026%2B)-3DDC84?logo=android&logoColor=white)](#requirements)
 [![Language](https://img.shields.io/badge/Language-Kotlin%202.2-7F52FF?logo=kotlin&logoColor=white)](#tech-stack)
@@ -12,7 +12,7 @@
 [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)](#installation)
 
 <p align="center">
-  <b>Bypasses Android AudioFlinger • 100% Bit-Perfect USB Direct Playback • AI Vocal Separation & Karaoke • AutoEQ 5000+ Profiles • Real-Time CRC32 Transfer Verification • Academic Benchmarking Suite (Welch's t-test / ANOVA)</b>
+  <b>Bypasses Android AudioFlinger • 100% Bit-Perfect USB Direct Playback • AI Vocal Separation & Karaoke (Beta / WIP) • AutoEQ 5000+ Profiles • Real-Time CRC32 Transfer Verification • Academic Benchmarking Suite (Welch's t-test / ANOVA)</b>
 </p>
 
 ---
@@ -24,14 +24,14 @@
 - [Overview](#-overview)
 - [Key Features](#-key-features)
   - [1. User-Space USB Direct Engine (Bit-Perfect)](#1-user-space-usb-direct-engine-bit-perfect)
-  - [2. AI Audio & Karaoke Suite](#2-ai-audio--karaoke-suite)
+  - [2. AI Audio & Karaoke Suite (Work in Progress / Beta)](#2-ai-audio--karaoke-suite-work-in-progress--beta)
   - [3. Audiophile DSP Pipeline](#3-audiophile-dsp-pipeline)
   - [4. AutoEQ Headphone & IEM Optimization](#4-autoeq-headphone--iem-optimization)
   - [5. Advanced Library, CUE & Lyrics Engine](#5-advanced-library-cue--lyrics-engine)
   - [6. Academic Benchmarking & Statistical Framework](#6-academic-benchmarking--statistical-framework)
+- [Roadmap & Upcoming Updates](#-roadmap--upcoming-updates)
 - [Architecture & Module Design](#-architecture--module-design)
 - [How Bit-Perfect Playback Works](#-how-bit-perfect-playback-works)
-- [Screenshots & UI Walkthrough](#-screenshots--ui-walkthrough)
 - [Installation & Setup](#-installation--setup)
 - [Hardware Compatibility](#-hardware-compatibility)
 - [Academic Context & Research Thesis](#-academic-context--research-thesis)
@@ -43,9 +43,9 @@
 
 ## 🌟 Overview
 
-**BitPerfect USB** is a reference-grade Android music player and research platform designed to solve Android's notorious audio architecture limitations. By default, Android routes all audio through **AudioFlinger**, which forces sample-rate conversion (typically resampling everything to 48kHz), truncates 24-bit/32-bit audio to 16-bit, and applies mixer volume degradation.
+**Re:Bit** (BitPerfect USB) is a reference-grade Android music player and research platform designed to solve Android's notorious audio architecture limitations. By default, Android routes all audio through **AudioFlinger**, which forces sample-rate conversion (typically resampling everything to 48kHz), truncates 24-bit/32-bit audio to 16-bit, and applies mixer volume degradation.
 
-BitPerfect USB implements a **custom user-space USB Audio Class (UAC1 & UAC2) driver** written from scratch in Kotlin over Android's USB Host APIs. It talks directly to attached USB DACs via asynchronous isochronous endpoints, completely bypassing AudioFlinger, Android Audio HAL, and kernel ALSA mixer layers.
+**Re:Bit** implements a **custom user-space USB Audio Class (UAC1 & UAC2) driver** written from scratch in Kotlin over Android's USB Host APIs. It talks directly to attached USB DACs via asynchronous isochronous endpoints, completely bypassing AudioFlinger, Android Audio HAL, and kernel ALSA mixer layers.
 
 In addition to bit-perfect streaming, the app provides a full suite of **On-Device AI DSP tools** (Real-time Karaoke vocal extraction/isolation, SOLA pitch shifting, DSEE upscaling, AutoEQ 5000+ headphone correction, romanized synchronized lyrics, CUE sheet parsing) and an **Academic Benchmarking Engine** running automated statistical experiments (Welch's t-test and One-Way ANOVA) directly on-device.
 
@@ -64,17 +64,26 @@ In addition to bit-perfect streaming, the app provides a full suite of **On-Devi
 - **Live CRC32 Transfer Verifier**: Cryptographically computes dual running CRC32 checksums (`Source Decoded` vs. `Transmitted to Wire`) providing mathematical proof of bit-perfect delivery.
 - **Live USB Traffic Logger & Descriptor Explorer**: Real-time packet inspector and Device-Manager-style USB descriptor tree builder.
 
-### 2. AI Audio & Karaoke Suite
+---
+
+### 2. AI Audio & Karaoke Suite *(Work In Progress / Beta)*
+
+> [!NOTE]
+> **⚠️ Experimental Feature Notice (Planned Future Update)**:
+> The AI Vocal Separation and Stem Extraction feature is currently in **active beta development (WIP)**. The app currently features dual-mode center-crossover DSP suppression and frequency-domain STFT filtering, with full end-to-end deep neural network models (Demucs / Spleeter TFLite integration) scheduled for release in an upcoming major update.
+
 - **Real-Time Vocal Suppression & Isolation (`AiVocalIsolator`)**:
   - **Instrumental Mode**: Surgical center lead vocal suppression down to `-26dB` with bass (<160Hz) kick protection and high-end air (>8kHz) preservation.
   - **Acapella Mode**: Solo lead vocal isolation for singing practice.
   - **Zero-Distortion DSP**: Leaky power & cross-correlation envelope follower eliminates zero-crossing chatter, harmonic buzz, and artifacts.
   - **Zero-Crosstalk Retention**: Hard-panned stereo instruments (reverberant guitars, wide synths, backing layers) retain 100% stereo imaging.
 - **Offline Stem Extraction (`AiStemExtractor`)**: Pre-renders full tracks into isolated Instrumental/Acapella WAV stems with atomic multi-bit depth unpacking (16/24/32-bit) and instant caching.
-- **On-Device Neural Engine (`TfliteVocalSeparator`)**: Demucs/Spleeter-style 2048-point STFT Overlap-Add (OLA) frequency-domain Wiener ratio masking.
+- **On-Device Neural Engine (`TfliteVocalSeparator`)**: Demucs/Spleeter-style 2048-point STFT Overlap-Add (OLA) frequency-domain Wiener ratio masking *(WIP - undergoing model tuning)*.
 - **Sony DSEE-Style Spectral Upscaler**: Synthesizes and restores high-frequency harmonics lost during lossy compression.
 - **SOLA Real-Time Pitch Shifter**: Crossfaded dual-grain Synchronized Overlap-Add key transposer (±6 semitones) without tempo changes.
 - **Live Pitch Detection & Karaoke Mic Scorer (`KaraokeMicScorer`)**: Detects fundamental vocal pitch (F0), matches musical note intervals, and provides real-time scoring.
+
+---
 
 ### 3. Audiophile DSP Pipeline
 - **10-Band Precision Equalizer**: 31Hz to 16kHz graphic/parametric EQ with FLAT, BASS BOOST, VOCAL, TREBLE, and AUDIOPHILE presets.
@@ -85,10 +94,14 @@ In addition to bit-perfect streaming, the app provides a full suite of **On-Devi
 - **ABX Double-Blind Listening Test**: Built-in blind testing modal (Source A vs. Source B vs. Mystery X) calculating statistical trial confidence ($p$-value).
 - **Dynamic Range (DR) Meter**: Real-time crest factor and EBU R128 loudness metrics.
 
+---
+
 ### 4. AutoEQ Headphone & IEM Optimization
 - **5,000+ Frequency Response Profiles**: Integrated Jaakko Pasanen AutoEQ database (Harman Target, Diffuse Field, oratory1990, Crinacle, Rtings).
 - **Online Search & Download**: Instant keyword search for any headphone or IEM model (Sennheiser, Sony, Audio-Technica, Moondrop, Hifiman, Apple, etc.).
 - **Parametric EQ Filter Generation**: Automatically converts target profiles into multi-band peaking and shelving biquad IIR filters with pre-amp clipping prevention.
+
+---
 
 ### 5. Advanced Library, CUE & Lyrics Engine
 - **Non-Indexed Folder Walk**: Direct SAF (Storage Access Framework) folder picker allowing playback from external SD cards and OTG storage.
@@ -101,6 +114,8 @@ In addition to bit-perfect streaming, the app provides a full suite of **On-Devi
   - **Chinese**: Hanzi to Pinyin with tone markers.
 - **A-B Repeat & Sleep Timer**: Seamless phrase-practice loop and 60-second fade-out sleep timer.
 
+---
+
 ### 6. Academic Benchmarking & Statistical Framework
 - **Automated Research Experiments (A–D)**:
   - **Experiment A**: Bit-Perfect Audio Integrity vs. Android AudioTrack (Checksum verification, bit-depth preservation).
@@ -112,6 +127,16 @@ In addition to bit-perfect streaming, the app provides a full suite of **On-Devi
   - **One-Way ANOVA**: Computes between-group and within-group variance, $F$-ratio, and significance across configurations.
 - **Validity Threats Mitigation**: Monitored thermal throttling, Doze prevention (`KeepScreenOn`), and synthetic test tone verification (`SyntheticToneDecoder`).
 - **CSV Data Export**: One-tap export of timestamped benchmark runs for analysis in R, Python (Pandas/SciPy), or SPSS.
+
+---
+
+## 🔮 Roadmap & Upcoming Updates
+
+- [ ] **Full Neural Demucs/Spleeter TFLite Model**: Complete end-to-end multi-stem vocal, bass, and drum separation accelerated by Android NNAPI / GPU delegates.
+- [ ] **Live Vocal Removal Polish**: Refined adaptive spectral Wiener filtering for complex reverberant stereo tracks.
+- [ ] **Dynamic AI Lyric Generation**: On-device speech-to-text lyrics extraction and real-time syllabic karaoke alignment.
+- [ ] **USB Audio Class 3.0 (UAC3) Support**: Advanced descriptor parsing, multi-channel BAP (Basic Audio Profile), and power management optimizations.
+- [ ] **DLNA / UPnP Bit-Perfect Renderer**: Network streaming over local Wi-Fi lossless protocols.
 
 ---
 
@@ -152,7 +177,7 @@ graph TD
 Standard Android Audio Path (Degraded):
 Audio File ──▶ MediaCodec ──▶ AudioFlinger (Resamples to 48kHz, Truncates to 16-bit) ──▶ Audio HAL ──▶ ALSA ──▶ USB DAC
 
-BitPerfect USB Direct Path (Lossless & Bit-Perfect):
+Re:Bit Direct Path (Lossless & Bit-Perfect):
 Audio File ──▶ Native Decoder ──▶ PcmContainerPacker ──▶ UsbIsochronousAudioStreamer ──▶ Hardware Isochronous OUT ──▶ USB DAC
                   │                                            ▲
                   └──▶ CRC32 Source ─────── Compare ───────────┴──▶ CRC32 Transmitted (100% Match)
@@ -178,8 +203,8 @@ Audio File ──▶ Native Decoder ──▶ PcmContainerPacker ──▶ UsbIs
 ### Build via Gradle
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/BitPerfectUSB.git
-cd BitPerfectUSB
+git clone https://github.com/your-username/Re-Bit.git
+cd Re-Bit
 
 # Run unit tests (All 53+ tests for DSP, USB scheduler & Statistics)
 ./gradlew testDebugUnitTest

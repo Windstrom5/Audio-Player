@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.thesis.bitperfectusb.playback.ai.AiGenreClassifierTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-08-31T12:15:55.885Z" hostname="MSI" time="0.006">
+<testsuite name="com.thesis.bitperfectusb.playback.ai.AiGenreClassifierTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-05T07:26:02.373Z" hostname="MSI" time="0.007">
   <properties/>
   <testcase name="test classify empty buffer returns default pop with non-empty probabilities" classname="com.thesis.bitperfectusb.playback.ai.AiGenreClassifierTest" time="0.004"/>
   <testcase name="test classify low frequency sine wave triggers bass prominent genre like EDM or Hip-Hop" classname="com.thesis.bitperfectusb.playback.ai.AiGenreClassifierTest" time="0.001"/>
-  <testcase name="test supported genres has 9 categories and all have valid 10-band presets" classname="com.thesis.bitperfectusb.playback.ai.AiGenreClassifierTest" time="0.001"/>
+  <testcase name="test supported genres has 9 categories and all have valid 10-band presets" classname="com.thesis.bitperfectusb.playback.ai.AiGenreClassifierTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

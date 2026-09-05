@@ -25,10 +25,12 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
+import android.widget.Toast
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.GraphicEq
+import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Mic
 import androidx.compose.material.icons.filled.MicOff
 import androidx.compose.material.icons.filled.MusicNote
@@ -159,6 +161,21 @@ fun KaraokeStudioDialog(
                                         color = HifiGold
                                     )
                                 }
+                                Spacer(modifier = Modifier.width(4.dp))
+                                Box(
+                                    modifier = Modifier
+                                        .background(Color(0xFFFF9800).copy(alpha = 0.2f), RoundedCornerShape(4.dp))
+                                        .border(BorderStroke(0.5.dp, Color(0xFFFF9800)), RoundedCornerShape(4.dp))
+                                        .padding(horizontal = 5.dp, vertical = 1.dp)
+                                ) {
+                                    Text(
+                                        text = "WIP / BETA",
+                                        fontFamily = TelemetryFontFamily,
+                                        fontSize = 7.sp,
+                                        fontWeight = FontWeight.Bold,
+                                        color = Color(0xFFFF9800)
+                                    )
+                                }
                             }
                             Text("Neural Stem Separation & Live Mic Scorer (Demixr Architecture)", fontFamily = TelemetryFontFamily, fontSize = 8.sp, color = TextSecondary)
                         }
@@ -169,6 +186,39 @@ fun KaraokeStudioDialog(
                 }
 
                 HorizontalDivider(color = OutlineSubtle)
+
+                // ── EXPERIMENTAL / WORK IN PROGRESS BANNER ──
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .background(Color(0xFFFF9800).copy(alpha = 0.12f), RoundedCornerShape(8.dp))
+                        .border(BorderStroke(1.dp, Color(0xFFFF9800).copy(alpha = 0.4f)), RoundedCornerShape(8.dp))
+                        .padding(horizontal = 10.dp, vertical = 8.dp),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Icon(
+                        Icons.Filled.Info,
+                        contentDescription = null,
+                        tint = Color(0xFFFF9800),
+                        modifier = Modifier.size(16.dp)
+                    )
+                    Spacer(modifier = Modifier.width(8.dp))
+                    Column {
+                        Text(
+                            "WORK IN PROGRESS (EXPERIMENTAL BETA)",
+                            fontFamily = TelemetryFontFamily,
+                            fontSize = 8.sp,
+                            fontWeight = FontWeight.Bold,
+                            color = Color(0xFFFF9800)
+                        )
+                        Text(
+                            "Real-time & offline AI vocal separation is in active development. Full deep neural models will be finalized in an upcoming update.",
+                            fontFamily = TelemetryFontFamily,
+                            fontSize = 7.sp,
+                            color = TextSecondary
+                        )
+                    }
+                }
 
                 // ── 1. LIVE MICROPHONE SINGING SCORING CONSOLE ──
                 Card(
@@ -397,7 +447,14 @@ fun KaraokeStudioDialog(
                                 .clip(RoundedCornerShape(10.dp))
                                 .background(if (isInstrumental) SignalTeal else BackgroundCharcoal)
                                 .border(BorderStroke(1.dp, if (isInstrumental) SignalTeal else OutlineSubtle), RoundedCornerShape(10.dp))
-                                .clickable { onSetKaraokeMode(KaraokeModeType.INSTRUMENTAL_ONLY) }
+                                .clickable {
+                                    onSetKaraokeMode(KaraokeModeType.INSTRUMENTAL_ONLY)
+                                    Toast.makeText(
+                                        context,
+                                        "Karaoke & Vocal Isolation is in Beta (WIP) — Full neural models coming in a future update!",
+                                        Toast.LENGTH_SHORT
+                                    ).show()
+                                }
                                 .padding(vertical = 8.dp, horizontal = 4.dp),
                             contentAlignment = Alignment.Center
                         ) {
@@ -418,7 +475,14 @@ fun KaraokeStudioDialog(
                                 .clip(RoundedCornerShape(10.dp))
                                 .background(if (isAcapella) HifiGold else BackgroundCharcoal)
                                 .border(BorderStroke(1.dp, if (isAcapella) HifiGold else OutlineSubtle), RoundedCornerShape(10.dp))
-                                .clickable { onSetKaraokeMode(KaraokeModeType.VOCAL_ISOLATION) }
+                                .clickable {
+                                    onSetKaraokeMode(KaraokeModeType.VOCAL_ISOLATION)
+                                    Toast.makeText(
+                                        context,
+                                        "Karaoke & Vocal Isolation is in Beta (WIP) — Full neural models coming in a future update!",
+                                        Toast.LENGTH_SHORT
+                                    ).show()
+                                }
                                 .padding(vertical = 8.dp, horizontal = 4.dp),
                             contentAlignment = Alignment.Center
                         ) {
@@ -701,7 +765,10 @@ fun KaraokeStudioDialog(
                                         modifier = Modifier
                                             .clip(RoundedCornerShape(6.dp))
                                             .border(BorderStroke(1.dp, OutlineSubtle), RoundedCornerShape(6.dp))
-                                            .clickable { onExtractInstrumental() }
+                                            .clickable {
+                                                Toast.makeText(context, "Extracting Instrumental Stem (WIP)...", Toast.LENGTH_SHORT).show()
+                                                onExtractInstrumental()
+                                            }
                                             .padding(vertical = 8.dp, horizontal = 10.dp),
                                         contentAlignment = Alignment.Center
                                     ) {
@@ -716,7 +783,10 @@ fun KaraokeStudioDialog(
                                     .clip(RoundedCornerShape(8.dp))
                                     .background(SignalTeal.copy(alpha = 0.2f))
                                     .border(BorderStroke(1.dp, SignalTeal), RoundedCornerShape(8.dp))
-                                    .clickable { onExtractInstrumental() }
+                                    .clickable {
+                                        Toast.makeText(context, "Extracting Instrumental Stem (WIP)...", Toast.LENGTH_SHORT).show()
+                                        onExtractInstrumental()
+                                    }
                                     .padding(vertical = 10.dp),
                                 contentAlignment = Alignment.Center
                             ) {
@@ -769,7 +839,10 @@ fun KaraokeStudioDialog(
                                         modifier = Modifier
                                             .clip(RoundedCornerShape(6.dp))
                                             .border(BorderStroke(1.dp, OutlineSubtle), RoundedCornerShape(6.dp))
-                                            .clickable { onExtractAcapella() }
+                                            .clickable {
+                                                Toast.makeText(context, "Extracting Acapella Stem (WIP)...", Toast.LENGTH_SHORT).show()
+                                                onExtractAcapella()
+                                            }
                                             .padding(vertical = 8.dp, horizontal = 10.dp),
                                         contentAlignment = Alignment.Center
                                     ) {
@@ -784,7 +857,10 @@ fun KaraokeStudioDialog(
                                     .clip(RoundedCornerShape(8.dp))
                                     .background(HifiGold.copy(alpha = 0.15f))
                                     .border(BorderStroke(1.dp, HifiGold.copy(alpha = 0.6f)), RoundedCornerShape(8.dp))
-                                    .clickable { onExtractAcapella() }
+                                    .clickable {
+                                        Toast.makeText(context, "Extracting Acapella Stem (WIP)...", Toast.LENGTH_SHORT).show()
+                                        onExtractAcapella()
+                                    }
                                     .padding(vertical = 8.dp),
                                 contentAlignment = Alignment.Center
                             ) {

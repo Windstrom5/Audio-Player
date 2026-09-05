@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.thesis.bitperfectusb.playback.lyrics.LyricsRomanizerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-08-31T12:15:55.997Z" hostname="MSI" time="0.008">
+<testsuite name="com.thesis.bitperfectusb.playback.lyrics.LyricsRomanizerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-09-05T07:26:02.495Z" hostname="MSI" time="0.004">
   <properties/>
-  <testcase name="testSongLyricFullKanjiTransliteration" classname="com.thesis.bitperfectusb.playback.lyrics.LyricsRomanizerTest" time="0.005"/>
-  <testcase name="testKoreanHangulRomanization" classname="com.thesis.bitperfectusb.playback.lyrics.LyricsRomanizerTest" time="0.001"/>
+  <testcase name="testSongLyricFullKanjiTransliteration" classname="com.thesis.bitperfectusb.playback.lyrics.LyricsRomanizerTest" time="0.003"/>
+  <testcase name="testKoreanHangulRomanization" classname="com.thesis.bitperfectusb.playback.lyrics.LyricsRomanizerTest" time="0.0"/>
   <testcase name="testJapaneseKatakanaRomanization" classname="com.thesis.bitperfectusb.playback.lyrics.LyricsRomanizerTest" time="0.0"/>
   <testcase name="testJapaneseSokuonDoubleConsonants" classname="com.thesis.bitperfectusb.playback.lyrics.LyricsRomanizerTest" time="0.0"/>
-  <testcase name="testJapaneseKanjiLyricMap" classname="com.thesis.bitperfectusb.playback.lyrics.LyricsRomanizerTest" time="0.0"/>
+  <testcase name="testJapaneseKanjiLyricMap" classname="com.thesis.bitperfectusb.playback.lyrics.LyricsRomanizerTest" time="0.001"/>
   <testcase name="testJapaneseHiraganaRomanization" classname="com.thesis.bitperfectusb.playback.lyrics.LyricsRomanizerTest" time="0.0"/>
-  <testcase name="testDetectsNonRomaji" classname="com.thesis.bitperfectusb.playback.lyrics.LyricsRomanizerTest" time="0.001"/>
+  <testcase name="testDetectsNonRomaji" classname="com.thesis.bitperfectusb.playback.lyrics.LyricsRomanizerTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

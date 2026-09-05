@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.thesis.bitperfectusb.playback.autoeq.AutoEqOnlineScraperTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-08-31T12:15:55.963Z" hostname="MSI" time="0.002">
+<testsuite name="com.thesis.bitperfectusb.playback.autoeq.AutoEqOnlineScraperTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-09-05T07:26:02.469Z" hostname="MSI" time="0.001">
   <properties/>
   <testcase name="handles empty or malformed strings gracefully" classname="com.thesis.bitperfectusb.playback.autoeq.AutoEqOnlineScraperTest" time="0.001"/>
-  <testcase name="parseGraphicEqFile extracts exactly 10 ISO standard bands with accurate interpolation" classname="com.thesis.bitperfectusb.playback.autoeq.AutoEqOnlineScraperTest" time="0.001"/>
+  <testcase name="parseGraphicEqFile extracts exactly 10 ISO standard bands with accurate interpolation" classname="com.thesis.bitperfectusb.playback.autoeq.AutoEqOnlineScraperTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

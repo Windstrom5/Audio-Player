@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.thesis.bitperfectusb.playback.AutoEqParserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-08-31T12:15:55.852Z" hostname="MSI" time="0.011">
+<testsuite name="com.thesis.bitperfectusb.playback.AutoEqParserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-09-05T07:26:02.345Z" hostname="MSI" time="0.009">
   <properties/>
-  <testcase name="parses standard AutoEQ text format correctly" classname="com.thesis.bitperfectusb.playback.AutoEqParserTest" time="0.011"/>
+  <testcase name="parses standard AutoEQ text format correctly" classname="com.thesis.bitperfectusb.playback.AutoEqParserTest" time="0.009"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

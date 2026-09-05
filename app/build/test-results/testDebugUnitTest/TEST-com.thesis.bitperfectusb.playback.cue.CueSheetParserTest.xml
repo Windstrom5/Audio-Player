@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.thesis.bitperfectusb.playback.cue.CueSheetParserTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-08-31T12:15:55.989Z" hostname="MSI" time="0.001">
+<testsuite name="com.thesis.bitperfectusb.playback.cue.CueSheetParserTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-09-05T07:26:02.490Z" hostname="MSI" time="0.001">
   <properties/>
   <testcase name="timecode conversion matches CD frame rate standards" classname="com.thesis.bitperfectusb.playback.cue.CueSheetParserTest" time="0.0"/>
   <testcase name="parses CUE sheet tracks and timecodes accurately" classname="com.thesis.bitperfectusb.playback.cue.CueSheetParserTest" time="0.001"/>

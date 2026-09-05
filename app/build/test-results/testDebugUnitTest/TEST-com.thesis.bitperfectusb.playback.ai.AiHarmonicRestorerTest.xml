@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.thesis.bitperfectusb.playback.ai.AiHarmonicRestorerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-08-31T12:15:55.892Z" hostname="MSI" time="0.001">
+<testsuite name="com.thesis.bitperfectusb.playback.ai.AiHarmonicRestorerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-05T07:26:02.382Z" hostname="MSI" time="0.0">
   <properties/>
-  <testcase name="test harmonic synthesis processes without distortion overflow" classname="com.thesis.bitperfectusb.playback.ai.AiHarmonicRestorerTest" time="0.001"/>
+  <testcase name="test harmonic synthesis processes without distortion overflow" classname="com.thesis.bitperfectusb.playback.ai.AiHarmonicRestorerTest" time="0.0"/>
   <testcase name="test detect spectrum cutoff with empty buffer" classname="com.thesis.bitperfectusb.playback.ai.AiHarmonicRestorerTest" time="0.0"/>
   <testcase name="test detect low frequency tone flags low cutoff" classname="com.thesis.bitperfectusb.playback.ai.AiHarmonicRestorerTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

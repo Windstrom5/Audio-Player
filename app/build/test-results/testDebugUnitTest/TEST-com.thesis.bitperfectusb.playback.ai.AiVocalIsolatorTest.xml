@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.thesis.bitperfectusb.playback.ai.AiVocalIsolatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-08-31T12:15:55.813Z" hostname="MSI" time="0.028">
+<testsuite name="com.thesis.bitperfectusb.playback.ai.AiVocalIsolatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-09-05T07:26:02.447Z" hostname="MSI" time="0.008">
   <properties/>
-  <testcase name="test pitch shifting runs without buffer error or overflow" classname="com.thesis.bitperfectusb.playback.ai.AiVocalIsolatorTest" time="0.016"/>
-  <testcase name="test FloatArray instrumental vocal suppression for FLAC streams" classname="com.thesis.bitperfectusb.playback.ai.AiVocalIsolatorTest" time="0.009"/>
+  <testcase name="test pitch shifting runs without buffer error or overflow" classname="com.thesis.bitperfectusb.playback.ai.AiVocalIsolatorTest" time="0.005"/>
+  <testcase name="test FloatArray instrumental vocal suppression for FLAC streams" classname="com.thesis.bitperfectusb.playback.ai.AiVocalIsolatorTest" time="0.001"/>
   <testcase name="test vocal isolation acapella mode extracts center mono signal" classname="com.thesis.bitperfectusb.playback.ai.AiVocalIsolatorTest" time="0.001"/>
   <testcase name="test mono signal center vocal is significantly attenuated in karaoke suppression" classname="com.thesis.bitperfectusb.playback.ai.AiVocalIsolatorTest" time="0.0"/>
-  <testcase name="test frequency to note name converter" classname="com.thesis.bitperfectusb.playback.ai.AiVocalIsolatorTest" time="0.001"/>
+  <testcase name="test frequency to note name converter" classname="com.thesis.bitperfectusb.playback.ai.AiVocalIsolatorTest" time="0.0"/>
   <testcase name="test hard panned stereo side signal is preserved in karaoke suppression" classname="com.thesis.bitperfectusb.playback.ai.AiVocalIsolatorTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
